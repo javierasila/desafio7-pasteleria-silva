@@ -313,6 +313,14 @@
         .grid .visitanos .btn3 {
           left: 150px; } }
 
+.container .card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px 100px 100px;
+  justify-items: center;
+  row-gap: 100px; }
+
 .products__title .main__title {
   color: #282828;
   font-weight: 500;
@@ -331,3 +339,19 @@
   font-size: 2.5rem;
   padding: 100px;
   text-align: center; }
+
+.main .form .form__list .form__name {
+  height: 30px;
+  width: 500px; }
+
+.main .form .form__list .form__mail {
+  height: 30px;
+  width: 500px; }
+
+.main .form .form__list .form__phone {
+  height: 30px;
+  width: 500px; }
+
+.main .form .form__list .form__input {
+  height: 200px;
+  width: 500px; }

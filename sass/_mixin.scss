@@ -1,1 +1,26 @@
-// Mixin para página tajetas página productos
+// Mixin para tajetas página contacto
+
+
+@mixin input-space ($height,$width){
+    height: $height;
+    width: $width;  
+}
+
+.main {
+    .form {
+        .form__list {
+            .form__name {
+                @include input-space(30px, 500px);
+            }
+            .form__mail {
+                @include input-space(30px, 500px);
+            }
+            .form__phone {
+                @include input-space(30px, 500px);
+            }
+            .form__input {
+                @include input-space(200px, 500px);
+            }
+        }
+    }
+}

@@ -27,14 +27,14 @@
             <li class="nav__item"><a href="contacto.html" class="nav__link">CONTACTO</a></li>
         </ul>
     </header>
-    <main>
+    <main class="main">
         <div class="contacto__title">
             <h3 class="main__title">Contactanos</h3></div>
         <div class="form">
-            <form action="/ruta-destino" method="get" enctype="">                
-                <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="form__input">
-                <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="form__input">
-                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="form__input">
+            <form action="/ruta-destino" method="get" enctype="" class="form__list">                
+                <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="form__name">
+                <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="form__mail">
+                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="form__phone">
                 <div class="checkbox">
                     <h4> Tipo de pedido</h4>
                     <label for="personalizado" class="checkbox__label">Pedido personalizado</label>
@@ -42,7 +42,7 @@
                     <label for="list" class="checkbox__label">Pedido de listado de productos</label>
                     <input type="radio" name="tipoPedido" id="list" value="list">
                 </div>
-                <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows="10" class="input" id="textarea"></textarea>
+                <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows="10" class="form__input" id="textarea"></textarea>
                 <button type="submit" class="form__button">Enviar</button>
             </form>
         </div>
