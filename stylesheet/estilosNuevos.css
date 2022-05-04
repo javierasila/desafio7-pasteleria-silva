@@ -356,7 +356,27 @@
   height: 200px;
   width: 500px; }
 
-.main .container .card-container .card1 .card__body .card__btn1 {
+.main .container .card-container .card .card__img {
+  margin-bottom: 30px; }
+
+.cardtitle, .main .container .card-container .card .card__body .card__info .card__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #F25C54;
+  font-weight: bold;
+  margin-bottom: 10px; }
+
+.cardcopy, .main .container .card-container .card .card__body .card__info .card__copy {
+  font-size: 15px;
+  color: #282828;
+  margin-bottom: 10px; }
+
+.cardprice, .main .container .card-container .card .card__body .card__info .card__price {
+  font-size: 15px;
+  color: #282828;
+  font-weight: bold; }
+
+.cardbtn, .main .container .card-container .card .card__body .card__btn {
   background-color: #F25C54;
   padding: 15px 10px;
   border-radius: 3px;

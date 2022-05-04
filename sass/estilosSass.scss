@@ -10,6 +10,7 @@
 
 $colorPrincipal: #F25C54; 
 $colorSecundario: #fabdb9;
+$colorTexto: #282828;
 $tipografiaTitulos: #4e4e4e 2.5rem;
 
 @import "header.scss";
@@ -19,3 +20,4 @@ $tipografiaTitulos: #4e4e4e 2.5rem;
 @import "maps.scss";
 @import "mixin.scss";
 @import "extend.scss";
+@import "card.scss";

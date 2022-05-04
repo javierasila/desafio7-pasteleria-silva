@@ -1,16 +1,44 @@
 
+// .main {
+//     .container {
+//         .card-container {
+//             .card1 {
+//                 .card__body {
+//                     .card__btn1 {
+//                         background-color: #F25C54;
+//                         padding: 15px 10px;
+//                         border-radius: 3px;
+//                         font-family: 'Roboto', sans-serif;
+//                         color: #fff;
+//                         text-transform: uppercase;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
 .main {
     .container {
         .card-container {
-            .card1 {
+            .card {
+                .card__img {
+                    margin-bottom: 30px;
+                }
                 .card__body {
-                    .card__btn1 {
-                        background-color: #F25C54;
-                        padding: 15px 10px;
-                        border-radius: 3px;
-                        font-family: 'Roboto', sans-serif;
-                        color: #fff;
-                        text-transform: uppercase;
+                    .card__info {
+                        .card__title {
+                            @extend .cardtitle;
+                        }
+                        .card__copy {
+                            @extend .cardcopy;
+                        }
+                        .card__price {
+                            @extend .cardprice;
+                        }
+                    }
+                    .card__btn {
+                        @extend .cardbtn;
                     }
                 }
             }
