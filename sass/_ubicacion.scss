@@ -1,0 +1,19 @@
+.main {
+    .ubicacion {
+        width: 70%;
+        margin: 100px auto;
+        display: flex;
+        align-items: center;
+        
+        .ubicacion__mapa {
+            width: 45%;
+        }
+        .ubicacion__info {
+            width: 50%;
+            font-family: 'Roboto', sans-serif;
+            line-height: 25px;
+            font-size: 15px;
+            margin-left: 30px;
+        }
+    }
+}

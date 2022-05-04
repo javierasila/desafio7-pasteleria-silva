@@ -383,3 +383,17 @@
   font-family: 'Roboto', sans-serif;
   color: #fff;
   text-transform: uppercase; }
+
+.main .ubicacion {
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center; }
+  .main .ubicacion .ubicacion__mapa {
+    width: 45%; }
+  .main .ubicacion .ubicacion__info {
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    margin-left: 30px; }
