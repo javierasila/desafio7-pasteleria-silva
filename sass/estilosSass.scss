@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+$colorPrincipal: #F25C54; 
+$colorSecundario: #fabdb9;
+$tipografiaTitulos: #4e4e4e 2.5rem;
+
+@import "header.scss";
+@import "footer.scss";
+@import "index.scss";
