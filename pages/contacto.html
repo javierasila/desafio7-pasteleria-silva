@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS stylesheet  -->
+    <link rel="stylesheet" href="../stylesheet/estilosNuevos.css">
+    <!-- Google fonts  -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:ital,wght@0,300;0,500;0,700;1,500&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -27,20 +29,20 @@
     </header>
     <main>
         <h3 class="contacto__title">Contactanos</h3>
-        <div class="contacto">
+        <div class="form">
             <form action="/ruta-destino" method="get" enctype="">                
-                <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="input">
-                <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="input">
-                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="input">
-                <div class="tipo__pedido">
+                <input type="text" name="userName" placeholder="Ingresa tu nombre aquí" class="form__input">
+                <input type="email" name="email" placeholder="Ingresa tu mail aquí" class="form__input">
+                <input type="tel" name="phone" id="telefono" placeholder="Ingresa tu telefono aquí" required class="form__input">
+                <div class="checkbox">
                     <h4> Tipo de pedido</h4>
-                    <label for="personalizado">Pedido personalizado</label>
+                    <label for="personalizado" class="checkbox__label">Pedido personalizado</label>
                     <input type="radio" name="tipoPedido" id="personalizado" value="personalizado">
-                    <label for="list">Pedido de listado de productos</label>
+                    <label for="list" class="checkbox__label">Pedido de listado de productos</label>
                     <input type="radio" name="tipoPedido" id="list" value="list">
                 </div>
                 <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows="10" class="input" id="textarea"></textarea>
-                <button type="submit" class="button">Enviar</button>
+                <button type="submit" class="form__button">Enviar</button>
             </form>
         </div>
 
