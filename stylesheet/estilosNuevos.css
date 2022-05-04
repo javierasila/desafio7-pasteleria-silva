@@ -355,3 +355,11 @@
 .main .form .form__list .form__input {
   height: 200px;
   width: 500px; }
+
+.main .container .card-container .card1 .card__body .card__btn1 {
+  background-color: #F25C54;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-transform: uppercase; }
