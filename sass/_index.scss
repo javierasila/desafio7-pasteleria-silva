@@ -51,6 +51,7 @@
     .productos {
         grid-area: productos;
         position: relative;
+        display: flex;
         @media (max-width: 768px) {
             width: 100%;
         }
@@ -88,6 +89,8 @@
             }
         }
         .btn1 {
+            // justify-content: center;
+            // align-items: center;
             top: 35%;
             left: 250px;
             padding: 3.3rem 20px;

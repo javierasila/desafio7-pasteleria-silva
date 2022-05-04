@@ -1,0 +1,40 @@
+// Mapa para titulos de paginas
+
+$estilosTitulos: (
+    color: #282828,
+    fontweight: 500,
+    fontsize: 2.5rem,
+    padding: 100px,
+    textalign: center,
+);
+
+.products__title {
+    .main__title {
+        color: map-get($estilosTitulos, color);
+        font-weight: map-get($estilosTitulos, fontweight);
+        font-size: map-get($estilosTitulos, fontsize);
+        padding: map-get($estilosTitulos, padding);
+    }
+}
+
+.ubicacion {
+    .ubicacion__info {
+        .ubicacion__title {
+            color: map-get($estilosTitulos, color);
+            font-weight: map-get($estilosTitulos, fontweight);
+            font-size: map-get($estilosTitulos, fontsize);
+            padding-bottom: map-get($estilosTitulos, padding);
+        }
+    }
+
+}
+
+.contacto__title {
+    .main__title {
+        color: map-get($estilosTitulos, color);
+        font-weight: map-get($estilosTitulos, fontweight);
+        font-size: map-get($estilosTitulos, fontsize);
+        padding: map-get($estilosTitulos, padding);
+        text-align: map-get($estilosTitulos, textalign);
+    }
+}

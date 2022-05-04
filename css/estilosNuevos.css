@@ -187,8 +187,7 @@
       flex-wrap: wrap; } }
   .grid .productos {
     grid-area: productos;
-    position: relative;
-    display: flex; }
+    position: relative; }
     @media (max-width: 768px) {
       .grid .productos {
         width: 100%; } }
@@ -313,21 +312,5 @@
         .grid .visitanos .btn3 {
           left: 150px; } }
 
-.products__title .main__title {
-  color: #282828;
-  font-weight: 500;
-  font-size: 2.5rem;
-  padding: 100px; }
-
-.ubicacion .ubicacion__info .ubicacion__title {
-  color: #282828;
-  font-weight: 500;
-  font-size: 2.5rem;
-  padding-bottom: 100px; }
-
-.contacto__title .main__title {
-  color: #282828;
-  font-weight: 500;
-  font-size: 2.5rem;
-  padding: 100px;
-  text-align: center; }
+.product__title {
+  font-size: 2.5rem; }
