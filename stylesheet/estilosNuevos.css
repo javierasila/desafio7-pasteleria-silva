@@ -397,3 +397,20 @@
     line-height: 25px;
     font-size: 15px;
     margin-left: 30px; }
+
+.main .form .form__list {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px; }
+
+.main .form .form__button {
+  background-color: #F25C54;
+  padding: 15px 10px;
+  border-radius: 3px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  border: none; }
