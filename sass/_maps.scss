@@ -6,6 +6,7 @@ $estilosTitulos: (
     fontsize: 2.5rem,
     padding: 100px,
     textalign: center,
+    padding2:50px,
 );
 
 .products__title {
@@ -35,6 +36,16 @@ $estilosTitulos: (
         font-weight: map-get($estilosTitulos, fontweight);
         font-size: map-get($estilosTitulos, fontsize);
         padding: map-get($estilosTitulos, padding);
+        text-align: map-get($estilosTitulos, textalign);
+    }
+}
+
+.nosotros__title {
+    .main__title {
+        color: map-get($estilosTitulos, color);
+        font-weight: map-get($estilosTitulos, fontweight);
+        font-size: map-get($estilosTitulos, fontsize);
+        padding: map-get($estilosTitulos, padding2);
         text-align: map-get($estilosTitulos, textalign);
     }
 }
